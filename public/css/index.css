@@ -2,3 +2,10 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     color: coral;
 }
+
+body{
+    background-color: aquamarine;
+}
+a{
+    align-items: center;
+}
