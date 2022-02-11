@@ -1,11 +1,62 @@
-h1{
-    font-family: 'Courier New', Courier, monospace;
-    color: coral;
+body{
+    background-color: cadetblue;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
-body{
-    background-color: aquamarine;
+#score{
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
 }
-a{
-    align-items: center;
+
+
+#game{
+    width: 600px;
+    height: 200px;
+    border: 10px solid black;
+    background-image: url("https://opengameart.org/sites/default/files/background0.png");
+    background-size: cover;
+    background-position-y: bottom;
+    
+}
+#charachter{
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    top: 150px;
+   
+}
+.animate{
+    animation: jump 500ms ease-in;
+}
+#block{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    position: relative;
+    top: 130px;
+    left: 590px;
+    animation: block 1s infinite linear;     
+}
+#clicks{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+@keyframes jump{
+    0%{top: 150px}
+    30%{top: 100px}
+    70%{top: 100px}
+    100%{top: 150px}
+}
+@keyframes block{
+    0%{left:590px;}
+    100%{left:-10px}
 }
