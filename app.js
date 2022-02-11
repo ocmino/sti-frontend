@@ -20,7 +20,6 @@ app.listen(PORT, function(){
 
 
 
-
 var clicks = 0;
 
 function onClick() {
