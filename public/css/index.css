@@ -1,4 +1,4 @@
-/* h1{
+h1{
     position: absolute;
     margin-left: 0.5cm;
 }
@@ -64,16 +64,4 @@ body{
 @keyframes block{
     0%{left:590px;}
     100%{left:-10px}
-} */
-
-
-#app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
-  
-  
+}
